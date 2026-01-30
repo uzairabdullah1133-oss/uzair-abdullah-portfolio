@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzair Abdullah | Web & Software Developer</title>
+    <meta name="description"
+        content="Portfolio of Uzair Abdullah, a Web & Software Developer specializing in building modern, responsive applications.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Uzair Abdullah<span>.</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about" class="btn-nav">About</a></li>
+                <li><a href="#education" class="btn-nav">Education</a></li>
+                <li><a href="#skills" class="btn-nav">Skills</a></li>
+                <li><a href="#experience" class="btn-nav">Experience</a></li>
+                <li><a href="#projects" class="btn-nav">Projects</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting hero-animate-1">Hello, I am</span>
+                <h1 class="hero-name hero-animate-2">Uzair Abdullah</h1>
+                <h2 class="hero-title hero-animate-3">Web Developer & Software Developer</h2>
+                <p class="hero-tagline hero-animate-4">Crafting modern, efficient, and user-centric digital solutions
+                    with precision
+                    and creativity.</p>
+                <div class="hero-buttons hero-animate-5">
+                    <a href="#projects" class="btn btn-primary">Discover My Work <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk <i class="fas fa-comment-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="img-wrapper">
+                    <img src="profile.png" alt="Uzair Abdullah">
+                </div>
+            </div>
+            <!-- Optional: Geometric / Abstract background elements handled in CSS -->
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content reveal">
+                <p class="lead-text">I am a passionate developer dedicated to building high-quality software and web
+                    applications.</p>
+                <p>With a strong foundation in computer science principles and a keen eye for modern design, I bridge
+                    the gap between technical functionality and aesthetic excellence. I thrive on solving complex
+                    problems and continuously learning new technologies to stay ahead in the fast-evolving tech
+                    landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-cards">
+                <div class="edu-card featured-edu">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-details">
+                        <span class="edu-status">Currently Studying</span>
+                        <h3>Bachelors of Software Engineering</h3>
+                        <p class="institution">Emerson University Multan</p>
+                        <p class="edu-year">2024 - Present</p> <!-- Adjust years as needed -->
+                        <p class="edu-desc">Focusing on Software Engineering, Data Structures, Web Technologies, and
+                            Machine Learning.</p>
+                    </div>
+                </div>
+                <!-- Add more qualifications if needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5 & CSS3</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript (ES6+)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React / Frameworks</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Software Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python / Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Database Management</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git & Version Control</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="experience-timeline">
+                <!-- Experience 1: Apexiums Technologies -->
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <h3>Web Developer Intern</h3>
+                        <span class="company">Apexiums Technologies</span>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Developed responsive user interfaces using HTML, CSS, and JavaScript.</li>
+                            <li>Collaborated with senior developers to optimize website performance.</li>
+                            <li>Assisted in debugging and troubleshooting front-end issues.</li>
+                        </ul>
+                        <div class="offer-letter-action">
+                            <a href="javascript:void(0)" class="btn btn-sm btn-outline has-icon"
+                                onclick="openModal();currentSlide(1)">
+                                <i class="fas fa-eye"></i> View Offer Letter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2: Developers Hub Technologies -->
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <h3>Web Developer Intern</h3>
+                        <span class="company">Developers Hub Technologies</span>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Contributed to full-stack development projects using MERN stack.</li>
+                            <li>Implemented RESTful APIs and database schemas.</li>
+                            <li>Participated in code reviews and agile development cycles.</li>
+                        </ul>
+                        <div class="offer-letter-action">
+                            <a href="javascript:void(0)" class="btn btn-sm btn-outline has-icon"
+                                onclick="openModal();currentSlide(2)">
+                                <i class="fas fa-eye"></i> View Offer Letter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3: AREC Technologies -->
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <h3>Machine Learning Intern</h3>
+                        <span class="company">AREC Technologies</span>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Working on data preprocessing and model training tasks.</li>
+                            <li>Exploring deep learning architectures for computer vision applications.</li>
+                            <li>Collaborating with the research team to implement AI solutions.</li>
+                        </ul>
+                        <div class="offer-letter-action">
+                            <a href="javascript:void(0)" class="btn btn-sm btn-outline has-icon"
+                                onclick="openModal();currentSlide(3)">
+                                <i class="fas fa-eye"></i> View Offer Letter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 4: Digitech Offerings -->
+                <div class="exp-card">
+                    <div class="exp-header">
+                        <h3>AI Workshop Participant Certificate</h3>
+                        <span class="company">Digitech Offerings</span>
+                    </div>
+                    <div class="exp-body">
+                        <ul>
+                            <li>Attended an intensive workshop on AI concepts and modern AI tools.</li>
+                            <li>Explored practical applications of AI in real-world scenarios.</li>
+                            <li>Learned about state-of-the-art AI technologies and their implementation.</li>
+                        </ul>
+                        <div class="offer-letter-action">
+                            <a href="javascript:void(0)" class="btn btn-sm btn-outline has-icon"
+                                onclick="openModal();currentSlide(4)">
+                                <i class="fas fa-eye"></i> View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project-marhaba.png" alt="Marhaba Atta Chakki Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <span class="project-type">WEB APPLICATION</span>
+                            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Marhaba Atta Chakki</h3>
+                            <p>A scalable full-stack e-commerce solution featuring secure authentication, real-time
+                                inventory management, and stripe payment integration.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="demo-access">
+                                <p class="demo-title"><i class="fas fa-key"></i> Demo Access:</p>
+                                <p class="demo-detail">Email: demo@marhaba.com</p>
+                                <p class="demo-detail">Pass: demo123</p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://marhaba-atta-chakki1-vlh8.vercel.app/" target="_blank"
+                                    class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                                <a href="https://github.com/uzairabdullah1133-oss/Marhaba-Atta-Chakki" target="_blank"
+                                    class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project-school-mgmt.png" alt="School Management System Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <span class="project-type">SOFTWARE APPLICATION</span>
+                            <div class="project-icon"><i class="fas fa-list"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>School Management System</h3>
+                            <p>Webb-based productivity tool tasks and schools to track workflows, ases, generates
+                                performance reports.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="demo-access">
+                                <p class="demo-title"><i class="fas fa-key"></i> Demo Access:</p>
+                                <p class="demo-detail">Email: Apexiums@school.com</p>
+                                <p class="demo-detail">Pass: Apexiums1717</p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://school-managment-system1s.vercel.app/" target="_blank"
+                                    class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                                <a href="https://github.com/uzairabdullah1133-oss/School-Managment-System1"
+                                    target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i>
+                                    Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="project-teacher-student.png" alt="Teacher Student Portal Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <div class="project-header">
+                            <span class="project-type">SCHOOL SITES</span>
+                            <div class="project-icon"><i class="fas fa-list"></i></div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Teacher Student Admin site</h3>
+                            <p>An interactive financial dashboard visualizing income, expenses, designed time ts with
+                                real-time data charts okara capabilities.</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="demo-access">
+                                <p class="demo-title"><i class="fas fa-key"></i> Demo Access:</p>
+                                <p class="demo-detail">Email: Apexiums@school.com</p>
+                                <p class="demo-detail">Pass: admin</p>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://studdent-and-teachers-and-admin-sit-gamma.vercel.app/" target="_blank"
+                                    class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                                <a href="https://github.com/uzairabdullah1133-oss/studdent-and-teachers-and-admin-site"
+                                    target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i>
+                                    Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper reveal">
+                <div class="contact-info">
+                    <h2>Let's Work Together</h2>
+                    <p>Have a project in mind or want to discuss a job opportunity? I'd love to hear from you.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:uzair.abdullah1133@gmail.com"
+                                style="color: inherit; text-decoration: none;">uzair.abdullah1133@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/923140408651" target="_blank"
+                                style="color: inherit; text-decoration: none;">03140408651</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/abdullah-malik-61b063353/" target="_blank"
+                                style="color: inherit; text-decoration: none;">linkedin.com/in/abdullah-malik</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Multan ,Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm" style="transition-delay: 0.2s;">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_subject" value="New Contact Message from Portfolio">
+                    <!-- Removing _next and _captcha to rely on default behavior which is more reliable for troubleshooting -->
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <!-- Column 1: Brand & Newsletter -->
+            <div class="footer-col brand-col reveal">
+                <a href="#" class="footer-logo">UZAIR ABDULLAH<span>.</span></a>
+                <p class="footer-desc">
+                    A passionate Software Engineer & Web Developer specializing in building modern, scalable, and
+                    user-centric digital solutions using the latest technologies.
+                </p>
+                <div class="footer-newsletter">
+                    <h4>Collaborate with me</h4>
+                    <form id="newsletterForm" class="newsletter-form"
+                        action="https://formsubmit.co/uzair.abdullah1133@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Collaboration Interest!">
+                        <input type="email" name="email" placeholder="Email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Column 2: Explore -->
+            <div class="footer-col link-col reveal" style="transition-delay: 0.1s;">
+                <h4 class="footer-heading">EXPLORE</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Portfolio Projects</a></li>
+                    <li><a href="#experience">Professional Experience</a></li>
+                    <li><a href="#education">Education & Certs</a></li>
+                    <li><a href="#contact">Contact Hub</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Get In Touch -->
+            <div class="footer-col contact-col reveal" style="transition-delay: 0.2s;">
+                <h4 class="footer-heading">GET IN TOUCH</h4>
+                <ul class="footer-contact-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Multan, Pakistan</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+92 314 0408651</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>uzair.abdullah1133@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com/malik.abdullah.211110" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abdullah-malik-61b063353/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/uzairabdullah1133-oss" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Column 4: Courses -->
+            <div class="footer-col link-col reveal" style="transition-delay: 0.3s;">
+                <h4 class="footer-heading">COURSES</h4>
+                <ul class="footer-links">
+                    <li><a href="#">MERN Stack Development</a></li>
+                    <li><a href="#">Python Programming</a></li>
+                    <li><a href="#">Full Stack AI (ML + DL)</a></li>
+                    <li><a href="#">Data Analysis</a></li>
+                    <li><a href="#">Software Engineering</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 5: Services -->
+            <div class="footer-col link-col reveal" style="transition-delay: 0.4s;">
+                <h4 class="footer-heading">SERVICES</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">AI Chatbot Integration</a></li>
+                    <li><a href="#">Database Management</a></li>
+                    <li><a href="#">UI / UX Design</a></li>
+                    <li><a href="#">API Development</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Uzair Abdullah. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Offer Letter Modal -->
+    <div id="offerModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content-wrapper">
+
+            <div class="modal-slide fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="offer-letter-1.jpg" alt="Offer Letter 1">
+            </div>
+
+            <div class="modal-slide fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="offer-letter-2.png" alt="Offer Letter 2">
+            </div>
+
+            <div class="modal-slide fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="offer-letter-3.png" alt="Offer Letter 3">
+            </div>
+
+            <div class="modal-slide fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="offer-letter-4.png" alt="Certificate of Participation">
+            </div>
+
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <!-- Floating Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://www.facebook.com/malik.abdullah.211110" target="_blank" class="social-btn facebook"
+            aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+            <span class="social-text">Facebook</span>
+        </a>
+        <a href="#" target="_blank" class="social-btn instagram" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="social-text">Instagram</span>
+        </a>
+        <a href="https://wa.me/923140408651" target="_blank" class="social-btn whatsapp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="social-text">WhatsApp</span>
+        </a>
+        <a href="https://github.com/uzairabdullah1133-oss" target="_blank" class="social-btn github"
+            aria-label="GitHub">
+            <i class="fab fa-github"></i>
+            <span class="social-text">GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/abdullah-malik-61b063353/" target="_blank" class="social-btn linkedin"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+            <span class="social-text">LinkedIn</span>
+        </a>
+    </div>
+
+    <!-- Floating Action Buttons (Bottom Right) -->
+    <div class="floating-actions">
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/923140408651" target="_blank" class="float-btn whatsapp-float" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- Chatbot Button -->
+        <button id="chatbotBtn" class="float-btn chatbot-float" aria-label="AI Chatbot">
+            <i class="fas fa-robot"></i>
+        </button>
+    </div>
+
+    <!-- Chat Widget Container -->
+    <div id="chatWidget" class="chat-widget">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-robot"></i>
+                <span>AI Assistant</span>
+            </div>
+            <button id="closeChat" class="close-chat">&times;</button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-message bot">
+                <p>Hi there! 👋 How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chatInput" placeholder="Type a message...">
+            <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
